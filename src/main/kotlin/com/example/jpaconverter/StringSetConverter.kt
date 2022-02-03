@@ -1,4 +1,4 @@
-package com.example.testaset
+package com.example.jpaconverter
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.ObjectMapper

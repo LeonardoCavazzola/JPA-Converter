@@ -1,12 +1,10 @@
-package com.example.testaset
+package com.example.jpaconverter
 
 import org.springframework.data.jpa.repository.JpaRepository
 import javax.persistence.*
 
-//Só converte o Set que ta no map
 @Entity
-class Exemplo21(
-
+class EntidadeComMapDeSet(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long?,
@@ -16,4 +14,4 @@ class Exemplo21(
     val mapDeStringExemplo: Map<String, Set<String>>
 )
 
-interface Exemplo21Repository : JpaRepository<Exemplo21, Long>
+interface EntidadeComMapDeSetRepository : JpaRepository<EntidadeComMapDeSet, Long>

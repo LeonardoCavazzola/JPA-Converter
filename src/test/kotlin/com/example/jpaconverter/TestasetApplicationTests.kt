@@ -1,4 +1,4 @@
-package com.example.testaset
+package com.example.jpaconverter
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

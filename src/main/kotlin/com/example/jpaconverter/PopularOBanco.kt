@@ -1,4 +1,4 @@
-package com.example.testaset
+package com.example.jpaconverter
 
 import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Bean
@@ -8,9 +8,9 @@ import org.springframework.context.annotation.Configuration
 class PopularOBanco {
 
     @Bean
-    fun com(exemplo21Repository: Exemplo21Repository): CommandLineRunner = CommandLineRunner {
-        exemplo21Repository.save(
-            Exemplo21(
+    fun com(repository: EntidadeComMapDeSetRepository): CommandLineRunner = CommandLineRunner {
+        repository.save(
+            EntidadeComMapDeSet(
                 id = null,
                 mapDeStringExemplo = mapOf(
                     Pair("k1", setOf("a1", "b1", "c1")),
@@ -20,8 +20,8 @@ class PopularOBanco {
             )
         )
 
-        exemplo21Repository.save(
-            Exemplo21(
+        repository.save(
+            EntidadeComMapDeSet(
                 id = null,
                 mapDeStringExemplo = mapOf(
                     Pair("k1", setOf("a1", "b1", "c1")),

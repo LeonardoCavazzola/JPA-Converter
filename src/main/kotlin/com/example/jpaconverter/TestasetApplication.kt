@@ -1,4 +1,4 @@
-package com.example.testaset
+package com.example.jpaconverter
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

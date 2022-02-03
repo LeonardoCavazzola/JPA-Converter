@@ -1,1 +1,1 @@
-rootProject.name = "testaset"
+rootProject.name = "jpa-converter"
